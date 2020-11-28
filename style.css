@@ -28,5 +28,22 @@ body{
 		opacity:.6;
 				}
 marquee{
-	opacity:100%;
-	}
+		color:pink;
+		background:#232345;
+		text-align: center;
+		margin:20px 15px 20px 25px;
+		animation:anam 2s linear infinite;
+		animation-direction: alternate;
+		}
+	
+		@keyframes anam{
+			0%{
+				opacity:25%;color:yellow;
+				}
+				50%{
+					opacity:50%;
+					}
+			100%{
+				opacity:100%;color: white;font-size:10px;
+				}
+			}
